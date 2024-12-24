@@ -1,0 +1,19 @@
+{
+    "name": "thoriq/londry",
+    "description": "project mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "thoriq"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "laundry\\": "app/"
+        }
+        },
+    "require": {
+        "php": ">=7.2.0",
+        "dompdf/dompdf": "^3.0"
+    }
+}
